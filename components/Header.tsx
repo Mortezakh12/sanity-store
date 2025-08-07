@@ -9,9 +9,11 @@ function Header() {
         {/* left bar */}
         <HeaderMenue />
         {/* logo */}
-        <Logo />
+        <div className="w-auto md:w-1/3 flex items-center justify-center">
+          <Logo>Next Store</Logo>
+        </div>
         {/* right bar */}
-        <div>right</div>
+        <div className="w-auto md:w-1/3 flex items-center justify-between gap-5">right</div>
       </Container>
     </header>
   );
